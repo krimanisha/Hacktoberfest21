@@ -1,4 +1,4 @@
-public class SortList {  
+public class SortedList {  
   
     //Represent a node of the doubly linked list  
   
