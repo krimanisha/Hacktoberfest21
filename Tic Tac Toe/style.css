@@ -9,6 +9,11 @@ body {
   display: flex;
   font-family: sans-serif;
   justify-content: center;
+  position:fixed;
+   top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
   overflow: hidden;
 }
 .cross{
@@ -21,6 +26,7 @@ body {
   margin: 50px;
   padding: 50px;
   border-radius: 25px;
+  
 }
 
 .title {
@@ -37,10 +43,12 @@ body {
   font-size: 25px;
   justify-content: space-around;
   height: 30px;
+  
 }
 
 .status span {
   color: #F2EBD3;
+  
 }
 
 .reset {
@@ -57,7 +65,9 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 15px;
-  margin-top: 50px;
+  margin-top: 10px;
+
+  
 }
 
 .game-cell {
@@ -66,8 +76,9 @@ body {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
+  
 }
 
 .x,
@@ -97,7 +108,7 @@ body {
   }
 
   .game-cell {
-    height: 150px;
+    height: 100px;
     width: 150px;
   }
 
