@@ -1,5 +1,5 @@
 import java.util.*; 
-class FibonacciSeries
+public class FibonacciSeries
 {  
     public static void main(String args[])  
     {   
@@ -16,6 +16,7 @@ class FibonacciSeries
             System.out.print(" "+n3);    
             n1=n2;    
             n2=n3;    
-        }    
+        } 
+        sc.close();
     }
 }  
